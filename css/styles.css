@@ -1,0 +1,118 @@
+:root {
+    --accent-color: #2196f3;
+    --primary-text-color: #757575;
+    --secondly-text-color: #212121;
+    --primary-background-color: #FFFFFF;
+    --secondly-background-color: #2F303A;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.header {
+    background-color: #ffffff;
+}
+
+/* logo */
+.logo>span {
+    color: var(--accent-color);
+}
+
+.logo {
+    color: #000000;
+}
+
+/* nav */
+.header-nav a {
+    color: var(--secondly-text-color);
+}
+
+.header-nav a:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.header-adress a {
+    color: var(--primary-text-color);
+}
+
+.header-adress a:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+
+
+/* ASIDE */
+.aside {
+    background-color: var(--secondly-background-color);
+    color: #FFFFFF;
+}
+
+.aside-button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+/*  */
+.peculiarity {
+    background-color: #F5F5F5;
+}
+
+.peculiarity h2 {
+    color: var(--secondly-text-color);
+}
+
+.peculiarity h3 {
+    color: var(--secondly-text-color);
+}
+
+.peculiarity p {
+    color: var(--primary-text-color);
+}
+
+
+
+/* team */
+.team {
+    background-color: #F5F4FA;
+}
+
+.team>h2 {
+    color: var(--secondly-text-color);
+}
+
+.team-name>h3 {
+    color: var(--secondly-text-color);
+}
+
+.team-name>p {
+    color: var(--primary-text-color);
+}
+
+
+/* footer */
+.footer {
+    background-color: var(--secondly-background-color);
+}
+
+.footer-logo>span {
+    color: var(--accent-color);
+}
+
+.footer-logo {
+    color: #FFFFFF;
+}
+
+.footer-adress a {
+    color: var(--primary-text-color);
+    font-style: normal;
+    cursor: pointer;
+}
+
+.footer-adress .maps {
+    color: #FFFFFF;
+}
