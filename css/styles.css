@@ -1,78 +1,106 @@
 :root {
     --accent-color: #2196f3;
     --primary-text-color: #757575;
-    --secondly-text-color: #212121;
+    --secondary-text-color: #212121;
     --primary-background-color: #FFFFFF;
-    --secondly-background-color: #2F303A;
+    --secondary-background-color: #2F303A;
 }
 
 li {
     list-style-type: none;
 }
-
-
+a {
+    text-decoration: none;
+}
 
 .header {
     background-color: #ffffff;
 }
 
+
+
+
 /* logo */
-.logo>span {
+.header-logo > span {
     color: var(--accent-color);
 }
-
-.logo {
+.header-logo {
     color: #000000;
+    cursor: pointer;
 }
+
+
+
 
 /* nav */
 .header-nav a {
-    color: var(--secondly-text-color);
+    color: var(--secondary-text-color);
 }
-
 .header-nav a:hover {
     color: var(--accent-color);
     cursor: pointer;
 }
-
-.header-adress a {
+.header-nav a:focus{
+    color: var(--accent-color);
+}
+.header-contact a {
     color: var(--primary-text-color);
 }
-
-.header-adress a:hover {
+.header-contact a:hover {
     color: var(--accent-color);
     cursor: pointer;
 }
-
-
-
-/* ASIDE */
-.aside {
-    background-color: var(--secondly-background-color);
-    color: #FFFFFF;
+.header-contact a:focus {
+    color: var(--accent-color);
 }
 
-.aside-button {
+
+
+
+
+
+
+/* HERO */
+.hero {
+    background-color: var(--secondary-background-color);
+    color: #FFFFFF;
+}
+.hero-title{
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.hero-button {
     background-color: var(--accent-color);
     color: #FFFFFF;
 }
+.hero-button:hover{
+    background-color: #FFFFFF;
+        color: var(--accent-color);
+}
+.hero-button:focus{
+    background-color: #FFFFFF;
+    color: var(--accent-color);
+}
+
+
+
+
+
 
 /*  */
-.peculiarity {
+.section {
     background-color: #F5F5F5;
 }
-
-.peculiarity h2 {
-    color: var(--secondly-text-color);
+.section-title {
+    color: var(--secondary-text-color);
 }
-
-.peculiarity h3 {
-    color: var(--secondly-text-color);
+.list-title {
+    color: var(--secondary-text-color);
 }
-
-.peculiarity p {
+.lest-text {
     color: var(--primary-text-color);
 }
+
 
 
 
@@ -80,39 +108,38 @@ li {
 .team {
     background-color: #F5F4FA;
 }
-
-.team>h2 {
-    color: var(--secondly-text-color);
+.team-title {
+    color: var(--secondary-text-color);
 }
-
-.team-name>h3 {
-    color: var(--secondly-text-color);
+.team-name > h3 {
+    color: var(--secondary-text-color);
 }
-
-.team-name>p {
+.team-name > p {
     color: var(--primary-text-color);
 }
 
 
 /* footer */
 .footer {
-    background-color: var(--secondly-background-color);
+    background-color: var(--secondary-background-color);
 }
-
 .footer-logo>span {
     color: var(--accent-color);
 }
-
 .footer-logo {
     color: #FFFFFF;
 }
 
+
 .footer-adress a {
     color: var(--primary-text-color);
     font-style: normal;
+}
+.footer-adress a:hover{
+    color: #FFFFFF;
     cursor: pointer;
 }
-
-.footer-adress .maps {
+.footer-adress a:focus{
     color: #FFFFFF;
+   cursor: pointer;
 }
