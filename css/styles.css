@@ -150,6 +150,10 @@ li {
 }
 .footer-logo {
   color: #ffffff;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .footer-adress a {
