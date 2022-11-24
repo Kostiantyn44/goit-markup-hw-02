@@ -5,20 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/goit-markup-hw-02/css/styles.css">
 </head>
 
-<body>
-    <header>
+<body class="body">
+    <header class="header">
         <nav>
-            <a href="./index.html"><span>Web</span>Studio</a>
-            <ul>
-                <li><a href="#">Студія</a></li>
-                <li><a href="#">Портфоліо</a></li>
+            <a class="header-logo" href="./index.html"><span>Web</span>Studio</a>
+            <ul class="header-nav">
+                <li><a href="./index.html">Студія</a></li>
+                <li><a href="./portfolio.html">Портфоліо</a></li>
                 <li><a href="#">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="header-contact">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -27,52 +32,53 @@
 
 
     <main>
-        <section>
-            <!-- <h1>Проєкти</h1> -->
-            <ul>
-                <li><button type="button">Усі</button></li>
-                <li><button type="button">Веб-сайти</button></li>
-                <li><button type="button">Додатки</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
+        <section class="filtrs">
+            <ul class="button-list">
+                <li><button class="button-filtr" type="button">Усі</button></li>
+                <li><button class="button-filtr" type="button">Веб-сайти</button></li>
+                <li><button class="button-filtr" type="button">Додатки</button></li>
+                <li><button class="button-filtr" type="button">Дизайн</button></li>
+                <li><button class="button-filtr" type="button">Маркетинг</button></li>
             </ul>
-            <ul>
-                <li><img src="./imeges/laptop.jpg" alt="Ноутбук з відкритою сторінкою веб-сайту" width="370"
-                        height="294">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+
+
+
+            <ul class="list-exampls">
+                <li><a href="#"><img src="./imeges/laptop.jpg" alt="Ноутбук з відкритою сторінкою веб-сайту" width="370" height="294">
+                <h2 class="title">Технокряк</h2>
+                <p class="text">Веб-сайт</p></a>
                 </li>
-                <li><img src="./imeges/basketball.jpg" alt="Гра двух чоловіків у баскетбол" width="370" height="294">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                <li><a href="#"><img src="./imeges/basketball.jpg" alt="Гра двух чоловіків у баскетбол" width="370" height="294">
+                <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                <p class="text">Дизайн</p></a>
                 </li>
-                <li><img src="./imeges/restaurant.jpg" alt="Логотип ресторану морепродуктів" width="370" height="294">
-                    <h2>Ресторан Seafood</h2>
-                    <p>Додаток</p>
+                <li><a href="#"><img src="./imeges/restaurant.jpg" alt="Логотип ресторану морепродуктів" width="370" height="294">
+                <h2 class="title">Ресторан Seafood</h2>
+                <p class="text">Додаток</p></a>
                 </li>
-                <li><img src="./imeges/headphones.jpg" alt="Навушники" width="370" height="294">
-                    <h2>Проєкт Prime</h2>
-                    <p>Маркетинг</p>
+                <li><a href="#"><img src="./imeges/headphones.jpg" alt="Навушники" width="370" height="294">
+                <h2 class="title">Проєкт Prime</h2>
+                <p class="text">Маркетинг</p></a>
                 </li>
-                <li><img src="./imeges/box.jpg" alt="Дві картонові коробки" width="370" height="294">
-                    <h2>Проєкт Boxes</h2>
-                    <p>Додаток</p>
+                <li><a href="#"><img src="./imeges/box.jpg" alt="Дві картонові коробки" width="370" height="294">
+                <h2 class="title">Проєкт Boxes</h2>
+                <p class="text">Додаток</p></a>
                 </li>
-                <li><img src="./imeges/monitor.jpg" alt="Монітор" width="370" height="294">
-                    <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                <li><a href="#"><img src="./imeges/monitor.jpg" alt="Монітор" width="370" height="294">
+                <h2 class="title">Inspiration has no Borders</h2>
+                <p class="text">Веб-сайт</p></a>
                 </li>
-                <li><img src="./imeges/book.jpg" alt="Відкрита книга" width="370" height="294">
-                    <h2>Видання Limited Edition</h2>
-                    <p>Дизайн</p>
+                <li><a href="#"><img src="./imeges/book.jpg" alt="Відкрита книга" width="370" height="294">
+                <h2 class="title">Видання Limited Edition</h2>
+                <p class="text">Дизайн</p></a>
                 </li>
-                <li><img src="./imeges/tag.jpg" alt="Етикетка" width="370" height="294">
-                    <h2>Проєкт LAB</h2>
-                    <p>Маркетинг</p>
+                <li><a href="#"><img src="./imeges/tag.jpg" alt="Етикетка" width="370" height="294">
+                <h2 class="title">Проєкт LAB</h2>
+                <p class="text">Маркетинг</p></a>
                 </li>
-                <li><img src="./imeges/laptop-two.jpg" alt="Чоловік пише щось в ноутбуці" width="370" height="294">
-                    <h2>Growing Business</h2>
-                    <p>Додаток</p>
+                <li><a href="#"><img src="./imeges/laptop-two.jpg" alt="Чоловік пише щось в ноутбуці" width="370" height="294">
+                <h2 class="title">Growing Business</h2>
+                <p class="text">Додаток</p></a>
                 </li>
             </ul>
         </section>
@@ -80,10 +86,10 @@
 
 
 
-    <footer>
-        <a href="#"><span>Web</span>Studio</a>
+    <footer class="footer">
+        <a class="footer-logo" href="#"><span>Web</span>Studio</a>
         <address>
-            <ul>
+            <ul class="footer-adress">
                 <li><a href="https://goo.gl/maps/1oLWRUHU5ivogvR87" target="_blank"
                         rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
