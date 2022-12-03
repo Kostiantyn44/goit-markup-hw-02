@@ -6,96 +6,161 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/goit-markup-hw-02/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body class="body">
     <header class="header">
-        <nav>
-            <a class="header-logo" href="./index.html"><span>Web</span>Studio</a>
-            <ul class="header-nav">
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="#">Контакти</a></li>
+        <div class="conteiner nav">
+            <nav class="nav-header">
+                <a class="header-logo" href="./index.html"><span>Web</span>Studio</a>
+                <ul class="nav-list">
+                    <li class="item"><a class="link" href="./index.html">Студія</a></li>
+                    <li class="item"><a class="link current" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="item"><a class="link" href="#">Контакти</a></li>
+                </ul>
+            </nav>
+            <ul class="header-contact">
+                <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="header-contact">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
 
 
 
     <main>
         <section class="filtrs">
-            <ul class="button-list">
-                <li><button class="button-filtr" type="button">Усі</button></li>
-                <li><button class="button-filtr" type="button">Веб-сайти</button></li>
-                <li><button class="button-filtr" type="button">Додатки</button></li>
-                <li><button class="button-filtr" type="button">Дизайн</button></li>
-                <li><button class="button-filtr" type="button">Маркетинг</button></li>
-            </ul>
-
-
-
-            <ul class="list-exampls">
-                <li><a href="#"><img src="./imeges/laptop.jpg" alt="Ноутбук з відкритою сторінкою веб-сайту" width="370" height="294">
-                <h2 class="title">Технокряк</h2>
-                <p class="text">Веб-сайт</p></a>
-                </li>
-                <li><a href="#"><img src="./imeges/basketball.jpg" alt="Гра двух чоловіків у баскетбол" width="370" height="294">
-                <h2 class="title">Постер New Orlean vs Golden Star</h2>
-                <p class="text">Дизайн</p></a>
-                </li>
-                <li><a href="#"><img src="./imeges/restaurant.jpg" alt="Логотип ресторану морепродуктів" width="370" height="294">
-                <h2 class="title">Ресторан Seafood</h2>
-                <p class="text">Додаток</p></a>
-                </li>
-                <li><a href="#"><img src="./imeges/headphones.jpg" alt="Навушники" width="370" height="294">
-                <h2 class="title">Проєкт Prime</h2>
-                <p class="text">Маркетинг</p></a>
-                </li>
-                <li><a href="#"><img src="./imeges/box.jpg" alt="Дві картонові коробки" width="370" height="294">
-                <h2 class="title">Проєкт Boxes</h2>
-                <p class="text">Додаток</p></a>
-                </li>
-                <li><a href="#"><img src="./imeges/monitor.jpg" alt="Монітор" width="370" height="294">
-                <h2 class="title">Inspiration has no Borders</h2>
-                <p class="text">Веб-сайт</p></a>
-                </li>
-                <li><a href="#"><img src="./imeges/book.jpg" alt="Відкрита книга" width="370" height="294">
-                <h2 class="title">Видання Limited Edition</h2>
-                <p class="text">Дизайн</p></a>
-                </li>
-                <li><a href="#"><img src="./imeges/tag.jpg" alt="Етикетка" width="370" height="294">
-                <h2 class="title">Проєкт LAB</h2>
-                <p class="text">Маркетинг</p></a>
-                </li>
-                <li><a href="#"><img src="./imeges/laptop-two.jpg" alt="Чоловік пише щось в ноутбуці" width="370" height="294">
-                <h2 class="title">Growing Business</h2>
-                <p class="text">Додаток</p></a>
-                </li>
-            </ul>
+            <div class="conteiner">
+                <ul class="button-list">
+                    <li class="item"><button class="button-filtr" type="button">Усі</button></li>
+                    <li class="item"><button class="button-filtr" type="button">Веб-сайти</button></li>
+                    <li class="item"><button class="button-filtr" type="button">Додатки</button></li>
+                    <li class="item"><button class="button-filtr" type="button">Дизайн</button></li>
+                    <li class="item"><button class="button-filtr" type="button">Маркетинг</button></li>
+                </ul>
+                <ul class="card-set">
+                    <li class="item">
+                            <article class="card">
+                                <div class="card-thumb">
+                                    <img src="./imeges/laptop.jpg" alt="Ноутбук з відкритою сторінкою веб-сайту" width="370" height="294">
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="card-title">Технокряк</h2>
+                                    <p class="card-text">Веб-сайт</p>
+                                </div>
+                            </article>
+                    </li>
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./imeges/basketball.jpg" alt="Гра двух чоловіків у баскетбол" width="370" height="294">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
+                                <p class="card-text">Дизайн</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./imeges/restaurant.jpg" alt="Логотип ресторану морепродуктів" width="370" height="294">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">Ресторан Seafood</h2>
+                                <p class="card-text">Додаток</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./imeges/headphones.jpg" alt="Навушники" width="370" height="294">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">Проєкт Prime</h2>
+                                <p class="card-text">Маркетинг</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./imeges/box.jpg" alt="Дві картонові коробки" width="370" height="294">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">Проєкт Boxes</h2>
+                                <p class="card-text">Додаток</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./imeges/monitor.jpg" alt="Монітор" width="370" height="294">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">Inspiration has no Borders</h2>
+                                <p class="card-text">Веб-сайт</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./imeges/book.jpg" alt="Відкрита книга" width="370" height="294">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">Видання Limited Edition</h2>
+                                <p class="card-text">Дизайн</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./imeges/tag.jpg" alt="Етикетка" width="370" height="294">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-title">Проєкт LAB</h2>
+                                <p class="card-text">Маркетинг</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="item">
+                    <article class="card">
+                        <div class="card-thumb">
+                            <img src="./imeges/laptop-two.jpg" alt="Чоловік пише щось в ноутбуці" width="370" height="294">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="card-title">Growing Business</h2>
+                            <p class="card-text">Додаток</p>
+                        </div>
+                    </article>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
 
 
     <footer class="footer">
-        <a class="footer-logo" href="#"><span>Web</span>Studio</a>
-        <address>
-            <ul class="footer-adress">
-                <li><a class="maps" href="https://goo.gl/maps/1oLWRUHU5ivogvR87" target="_blank"
-                        rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="conteiner">
+            <a class="footer-logo" href="./index.html"><span>Web</span>Studio</a>
+            <address>
+                <ul class="footer-adress">
+                    <li class="item"><a class="maps" href="https://goo.gl/maps/1oLWRUHU5ivogvR87" target="_blank"
+                            rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 
